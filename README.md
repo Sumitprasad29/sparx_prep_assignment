@@ -1,8 +1,18 @@
-# React + Vite
+# Edit API Data - React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to retrieve, edit, and delete API data using Axios.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetch data from an API.
+- Edit data fields (name, email, and details).
+- Delete data entries.
+- Responsive and user-friendly UI.
+- Axios is used for API requests (GET, POST, DELETE).
+
+## Tech Stack
+
+- **Frontend**: React
+- **Styling**: Tailwind CSS
+- **HTTP Client**: Axios
+- **Hosting**: Netlify
